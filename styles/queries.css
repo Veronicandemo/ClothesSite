@@ -1,0 +1,51 @@
+@media (max-width: 1200px) {
+    html,body{
+        font-size: 20px;
+    }
+    .shoes-section{
+        gap: 5%;
+    }
+    .grid--footer{
+        gap: 5%;
+
+    }
+}
+@media (max-width: 830px) and (min-width: 650px){
+    .grid--footer{
+        display: flex;
+        flex-direction: column;
+        gap: 6%;
+    }
+    .p-shoe{
+        top: 50%;
+        font-size: 1rem;
+    }
+    .discover{
+        padding-left: 5%;
+        font-size: 1rem;
+    }
+}
+@media (max-width: 620px) {
+    .discover p{
+        padding-left: 15%;
+        font-size: 1rem;
+    }
+    .grid--footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .discover{
+        justify-content: space-between;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    .dress img{
+        height: 50%;
+        width: 50%;
+
+
+    }
+
+    
+}
